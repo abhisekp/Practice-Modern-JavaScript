@@ -41,3 +41,4 @@ jspm_packages
 *.tgz
 *.zip
 *.tar.gz
+.all-contributorsrc
