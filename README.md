@@ -2,7 +2,8 @@
 # Practice Modern JavaScript
 A boilerplate to setup and practice Modern JavaScript  
 
-[![](http://i.imgur.com/Qr7xgwa.png)](#app-top)  
+[![](http://i.imgur.com/rzyanJt.gif)](#app-top)  
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) [![MIT License](https://img.shields.io/badge/License-MIT-56A902.svg?style=flat-square&maxAge=2592000)](LICENSE)  [![Practice Modern JavaScript Downloads](https://img.shields.io/github/downloads/abhisekp/Practice-Modern-JavaScript/total.svg?maxAge=2592000)](https://github.com/abhisekp/Practice-Modern-JavaScript/archive/master.zip)
 
 ## Installation
