@@ -20,7 +20,10 @@
   "scripts": {
     "watch": "npm run -s watch:dev",
     "watch:dev": "nodemon -q -x babel-node index.js",
-    "start": "npm run -s watch",
+    "watch:prod": "nodemon -w index.es6.js -q index.es6.js",
+    "start": "npm run -s build:prod & npm run -s watch:prod",
+    "build": "npm run -s build:prod",
+    "build:prod": "babel -w -o index.es6.js index.js 1>/dev/null",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
