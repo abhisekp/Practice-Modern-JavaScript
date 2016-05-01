@@ -51,16 +51,17 @@ A boilerplate to setup and practice Modern JavaScript
   ```
 
 ## Examples
+
 ### Example 1
 
 ```js
 // async-await.js
-const delay = new Promise(resolve => {
+const prom = new Promise(resolve => {
   resolve(`Hello`)
 })
 
 const longRun = async () => {
-  const res = await delay
+  const res = await prom
   console.log(res)
 }
 
