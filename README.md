@@ -1,2 +1,2 @@
-# Practice-JavaScript
-A boilerplate to setup and Practice JavaScript 
+# Practice Modern JavaScript
+A boilerplate to setup and practice Modern JavaScript
