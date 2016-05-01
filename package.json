@@ -1,6 +1,6 @@
 {
   "name": "practice-modern-javascript",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A boilerplate to setup and practice Modern JavaScript",
   "main": "index.js",
   "dependencies": {
