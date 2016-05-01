@@ -68,6 +68,13 @@ const longRun = async () => {
 longRun()
 ```
 
+### Example 2
+```js
+// array-includes.js
+const includes3 = [1, 3, 4].includes(3)
+console.log(includes3)
+```
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
