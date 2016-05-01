@@ -69,28 +69,28 @@ A boilerplate to setup and practice Modern JavaScript
 
 ## <a id="examples"></a>Examples
 
-### <a id="example-1"></a>Example 1 <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
+1. <a id="example-1"></a>**Example 1** <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
 
-```js
-// async-await.js
-const prom = new Promise(resolve => {
-  resolve(`Hello`)
-})
+  ```js
+  // async-await.js
+  const prom = new Promise(resolve => {
+    resolve(`Hello`)
+  })
 
-const longRun = async () => {
-  const res = await prom
-  console.log(res)
-}
+  const longRun = async () => {
+    const res = await prom
+    console.log(res)
+  }
 
-longRun()
-```
+  longRun()
+  ```
 
-### <a id="example-2"></a>Example 2 <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
-```js
-// array-includes.js
-const includes3 = [1, 3, 4].includes(3)
-console.log(includes3)
-```
+2. <a id="example-2"></a>**Example 2** <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
+  ```js
+  // array-includes.js
+  const includes3 = [1, 3, 4].includes(3)
+  console.log(includes3)
+  ```
 
 ## <a id="techs"></a>Technologies Used <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
 - [**Babel**](http://babeljs.io) — Transpiles modern JS to compatible and runnable JS
