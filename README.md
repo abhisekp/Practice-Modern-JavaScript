@@ -50,6 +50,23 @@ A boilerplate to setup and practice Modern JavaScript
   My Module
   ```
 
+## Examples
+### Example 1
+
+```js
+// async-await.js
+const delay = new Promise(resolve => {
+  resolve(`Hello`)
+})
+
+const longRun = async () => {
+  const res = await delay
+  console.log(res)
+}
+
+longRun()
+```
+
 ## Contributors
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
