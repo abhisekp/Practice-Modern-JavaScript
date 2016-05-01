@@ -1,7 +1,8 @@
+<a name="app-top" id="app-top"></a>
 # Practice Modern JavaScript
 A boilerplate to setup and practice Modern JavaScript  
 
-![](http://i.imgur.com/Qr7xgwa.png)  
+[![](http://i.imgur.com/Qr7xgwa.png)](#app-top)  
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) [![MIT License](https://img.shields.io/badge/License-MIT-56A902.svg?style=flat-square&maxAge=2592000)](LICENSE)  [![Practice Modern JavaScript Downloads](https://img.shields.io/github/downloads/abhisekp/Practice-Modern-JavaScript/total.svg?maxAge=2592000)](https://github.com/abhisekp/Practice-Modern-JavaScript/archive/master.zip)
 
 ## Installation
@@ -61,3 +62,17 @@ A boilerplate to setup and practice Modern JavaScript
 ## License
 
 [**MIT**](LICENSE) © [**Abhisek Patnaik**](https://github.com/abhisekp)
+
+> ----
+<p align="center">
+Tweet <kbd><a href="https://twitter.com/abhisek"><b><img src="https://i.imgur.com/wOPZd0Y.png?1"> @abhisek</b></a></kbd><br>
+Know <kbd><b><a href="https://about.me/abhisekp">about/abhisekp</a></b></kbd><br>
+Chat with <kbd><a href="https://gitter.im/abhisekp">
+<img src="https://i.imgur.com/ThSWa6Y.png?2"> <b>@abhisekp</b></a></kbd>
+</p>
+
+> ----
+
+<div align="right">
+<kbd><a href="#app-top"><b>⮬ back to top</b></a></kbd>
+</div>
