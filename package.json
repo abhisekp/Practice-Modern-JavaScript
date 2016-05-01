@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abhisekp/Practice-JavaScript.git"
+    "url": "git+https://github.com/abhisekp/Practice-Modern-JavaScript.git"
   },
   "keywords": [
     "practice",
@@ -36,7 +36,7 @@
   "author": "Abhisek Pattnaik <abhisekp@engineer.com> (http://about.me/abhisekp)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/abhisekp/Practice-JavaScript/issues"
+    "url": "https://github.com/abhisekp/Practice-Modern-JavaScript/issues"
   },
-  "homepage": "https://github.com/abhisekp/Practice-JavaScript#readme"
+  "homepage": "https://github.com/abhisekp/Practice-Modern-JavaScript#readme"
 }
