@@ -1,7 +1,6 @@
 {
   "plugins": [
-    "transform-decorators-legacy",
-    "transform-async-to-generator"
+    "transform-decorators-legacy"
   ],
-  "presets": ["modern-node/6.0"]
+  "presets": ["modern-node/6.0", "stage-0"]
 }
