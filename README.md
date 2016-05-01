@@ -54,4 +54,4 @@ A boilerplate to setup and practice Modern JavaScript
 
 ## License
 
-[MIT](LICENSE) &copy; Abhisek Patnaik
+[MIT](LICENSE) Copyright © 2016 Abhisek Patnaik | Released under the MIT license.
