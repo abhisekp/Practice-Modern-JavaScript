@@ -50,7 +50,7 @@ A boilerplate to setup and practice Modern JavaScript
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-> **All types of Contributions are Welcome**
+> **All types of Contributions are Welcome** :pray:
 
 ## License
 
