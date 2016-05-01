@@ -1,28 +1,34 @@
 # Practice Modern JavaScript
 A boilerplate to setup and practice Modern JavaScript  
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-## How to Use
+![](http://i.imgur.com/Qr7xgwa.png)  
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors) [![MIT License](https://img.shields.io/badge/License-MIT-56A902.svg?style=flat-square&maxAge=2592000)](LICENSE)  [![Practice Modern JavaScript Downloads](https://img.shields.io/github/downloads/abhisekp/Practice-Modern-JavaScript/total.svg?maxAge=2592000)](https://github.com/abhisekp/Practice-Modern-JavaScript/archive/master.zip)
 
-1. Install `nodemon` globally for watching for file changes while running the code :beginner: :package:
+## Installation
+
+> Use the latest [**NodeJS**](http://nodejs.org) (>= v6) available
+
+1. **Install `nodemon`** globally for watching for file changes while running the code :beginner: :package:
 
   ```sh
   $ npm install -g nodemon # npm i -g nodemon
   ```
 
-2. Install all dependencies :beginner: :package:
+2. **Install all dependencies** :beginner: :package:
 
   ```sh
   $ npm install
   ```
 
-3. Start watching for file changes :eyes:
+## Usage
+
+1. **Start watching** for file changes :eyes:
 
   ```sh
   $ npm run watch # npm start
   ```
 
-4. Start writing modern JavaScript in `index.js` file :memo:
+2. **Start writing** modern JavaScript in **`index.js`** file :memo:
 
   ```js
   // my-module.js
@@ -36,7 +42,7 @@ A boilerplate to setup and practice Modern JavaScript
   console.log(myModule.name) // 'My Module'
   ```
 
-5. Enjoy the output :joy:
+3. **Enjoy** the output :joy:
 
   ```sh
   $ npm -s start # silently start
@@ -54,4 +60,4 @@ A boilerplate to setup and practice Modern JavaScript
 
 ## License
 
-Copyright © 2016 Abhisek Patnaik | Released under the [MIT](LICENSE) license.
+[**MIT**](LICENSE) © [**Abhisek Patnaik**](https://github.com/abhisekp)
