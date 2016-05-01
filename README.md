@@ -39,7 +39,7 @@ A boilerplate to setup and practice Modern JavaScript
 5. Enjoy the output :joy:
 
   ```sh
-  ▶ npm -s start # silently start
+  $ npm -s start # silently start
   My Module
   ```
 
