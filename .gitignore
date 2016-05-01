@@ -42,3 +42,4 @@ jspm_packages
 *.zip
 *.tar.gz
 .all-contributorsrc
+*.es6.js
