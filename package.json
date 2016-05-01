@@ -1,0 +1,29 @@
+{
+  "name": "practice-javascript",
+  "version": "0.0.0",
+  "description": "A boilerplate to setup and Practice JavaScript",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisekp/Practice-JavaScript.git"
+  },
+  "keywords": [
+    "practice",
+    "javascript",
+    "es6",
+    "es7",
+    "es2015",
+    "es2016"
+  ],
+  "author": "Abhisek Pattnaik <abhisekp@engineer.com> (http://about.me/abhisekp)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhisekp/Practice-JavaScript/issues"
+  },
+  "homepage": "https://github.com/abhisekp/Practice-JavaScript#readme"
+}
