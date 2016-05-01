@@ -1,5 +1,6 @@
 # Practice Modern JavaScript
-A boilerplate to setup and practice Modern JavaScript
+A boilerplate to setup and practice Modern JavaScript  
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
 ## How to Use
 
@@ -41,3 +42,15 @@ A boilerplate to setup and practice Modern JavaScript
   ▶ npm -s start
   My Module
   ```
+
+## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+| [![Abhisek Pattnaik](https://avatars.githubusercontent.com/u/1029200?v=3&s=100)<br /><sub>Abhisek Pattnaik</sub>](http://about.me/abhisekp)<br />[💻](https://github.com/abhisekp/Practice-Modern-JavaScript/commits?author=abhisekp) 🎨 [📖](https://github.com/abhisekp/Practice-Modern-JavaScript/commits?author=abhisekp) 💡 |
+| :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section --><!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## License
+
+[MIT](LICENSE) &copy; Abhisek Patnaik
