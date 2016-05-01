@@ -109,7 +109,7 @@ console.log(includes3)
 | [![Abhisek Pattnaik](https://avatars.githubusercontent.com/u/1029200?v=3&s=100)<br /><sub>Abhisek Pattnaik</sub>](http://about.me/abhisekp)<br />[💻](https://github.com/abhisekp/Practice-Modern-JavaScript/commits?author=abhisekp) 🎨 [📖](https://github.com/abhisekp/Practice-Modern-JavaScript/commits?author=abhisekp) 💡 |
 | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors#emoji-key) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors#emoji-key) specification.
 
 > **All types of Contributions are Welcome** :pray:
 
