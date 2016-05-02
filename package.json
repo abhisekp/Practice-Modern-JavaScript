@@ -7,7 +7,8 @@
     "node": ">=6"
   },
   "dependencies": {
-    "better-console": "^0.2.4"
+    "better-console": "^0.2.4",
+    "npm-run-all": "^1.8.0"
   },
   "devDependencies": {
     "babel-cli": "^6.7.7",
@@ -21,7 +22,7 @@
     "watch": "npm run -s watch:dev",
     "watch:dev": "nodemon -q -x babel-node index.js",
     "watch:prod": "nodemon -w index.es6.js -q index.es6.js",
-    "start": "npm run -s build:prod & npm run -s watch:prod",
+    "start": "npm-run-all -p build:prod watch:prod",
     "build": "npm run -s build:prod",
     "build:prod": "babel -w -o index.es6.js index.js 1>/dev/null",
     "test": "echo \"Error: no test specified\" && exit 1"
