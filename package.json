@@ -19,13 +19,18 @@
     "babel-preset-stage-0": "^6.5.0"
   },
   "scripts": {
-    "watch": "npm run -s watch:dev",
-    "watch:dev": "nodemon -q -x babel-node index.js",
-    "watch:prod": "nodemon -w index.es6.js -q index.es6.js",
-    "start": "npm-run-all -p build:prod watch:prod",
+    "watch": "npm-run-all watch:dev",
+    "watch:prod": "npm-run-all -p build:watch:prod run:watch:prod",
+    "run:watch:prod": "nodemon -q -w build build",
+    "watch:dev": "nodemon -q -w src -x babel-node src",
+    "start": "node build || npm-run-all build:prod start",
     "build": "npm-run-all build:prod",
-    "build:prod": "babel -q -w -o index.es6.js index.js 1>/dev/null",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:prod": "npm-run-all clean:build && babel -q -D -d build src",
+    "build:watch:prod": "npm-run-all clean:build && babel -q -w -D -d build src",
+    "build:dev": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "npm-run-all clean:build",
+    "clean:build": "rimraf build/*"
   },
   "repository": {
     "type": "git",
