@@ -43,7 +43,7 @@ A boilerplate to setup and practice Modern JavaScript
 1. <a id="watch"></a>**Start watching** for file changes :eyes:
 
   ```sh
-  $ npm run watch # npm start
+  $ npm run -s watch # npm start -s
   ```
 
 2. <a id="write"></a>**Start writing** modern JavaScript in **`index.js`** file :memo:
