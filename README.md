@@ -1,5 +1,4 @@
-<a name="app-top" id="app-top"></a>
-# Practice Modern JavaScript
+# <a id="app-top"></a> Practice Modern JavaScript
 A boilerplate to setup and practice Modern JavaScript  
 
 [![](http://i.imgur.com/rzyanJt.gif)](#app-top)  
