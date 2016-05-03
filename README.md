@@ -1,9 +1,10 @@
-# <a id="app-top"></a> Practice Modern JavaScript
+# <a id="app-top"></a> Practice Modern JavaScript [![MIT License](https://img.shields.io/badge/-MIT-56A902.svg?style=flat-square&maxAge=2592000 "MIT License")](LICENSE) [![Tweet Practice Modern JavaScript](http://i.imgur.com/1Y9LBHw.png "Tweet Practice Modern JavaScript")](https://twitter.com/intent/retweet?tweet_id=726917916843601920&related=abhisek%3ACreator,babeljs%3ATranspiler)  
 A boilerplate to setup and practice Modern JavaScript  
 
 [![](http://i.imgur.com/rzyanJt.gif)](#app-top)  
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contrib) [![MIT License](https://img.shields.io/badge/License-MIT-56A902.svg?style=flat-square&maxAge=2592000)](LICENSE) [![Practice Modern JavaScript Download](https://img.shields.io/badge/Download-Practice_Modern_JavaScript_🚀-9055A2.svg?style=flat-square&maxAge=2592000)](https://github.com/abhisekp/Practice-Modern-JavaScript/archive/master.zip)  
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contrib) [![MIT License](https://img.shields.io/badge/License-MIT-56A902.svg?style=flat-square&maxAge=2592000)](LICENSE)  
+[![Practice Modern JavaScript Download](https://img.shields.io/badge/Download-Practice_Modern_JavaScript_🚀-9055A2.svg?style=flat-square&maxAge=2592000)](https://github.com/abhisekp/Practice-Modern-JavaScript/archive/master.zip)  
 [![Practice Modern JavaScript Tweet](https://img.shields.io/badge/Tweet-Practice_Modern_JavaScript-1da1f2.svg?style=flat-square&maxAge=2592000)](https://twitter.com/intent/retweet?tweet_id=726917916843601920&related=abhisek%3ACreator,babeljs%3ATranspiler)
 
 ## <a id="toc"></a> Table of Contents
