@@ -24,6 +24,7 @@
     "run:watch:prod": "nodemon -q -w build build",
     "watch:dev": "nodemon -q -w src -x babel-node src",
     "start": "node build || npm-run-all build:prod start",
+    "start:watch": "npm-run-all watch:prod",
     "build": "npm-run-all build:prod",
     "build:prod": "npm-run-all clean:build && babel -q -D -d build src",
     "build:watch:prod": "npm-run-all clean:build && babel -q -w -D -d build src",
