@@ -46,7 +46,7 @@ A boilerplate to setup and practice Modern JavaScript
   $ npm run -s watch # npm start -s
   ```
 
-2. <a id="write"></a>**Start writing** modern JavaScript in **`index.js`** file :memo:
+2. <a id="write"></a>**Start writing** modern JavaScript in **`src/index.js`** file :memo:
 
   ```js
   // my-module.js
