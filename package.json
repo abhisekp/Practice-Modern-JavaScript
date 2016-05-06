@@ -32,6 +32,7 @@
     "build:watch:prod": "npm-run-all clean:build && babel -q -w -D -d build src",
     "build:dev": "",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "npm-run-all build",
     "clean": "npm-run-all clean:build",
     "clean:build": "rimraf build/*"
   },
