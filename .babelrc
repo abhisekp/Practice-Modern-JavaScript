@@ -1,7 +1,27 @@
 {
   "plugins": [
-    "transform-decorators-legacy"
+    "transform-decorators-legacy",
+    "transform-undefined-to-void",
+    "syntax-flow"
   ],
   "presets": ["modern-node/6.0", "stage-0"],
-  "sourceMaps": true
+  "sourceMaps": true,
+  "env": {
+    "production": {
+      plugins: [
+        "transform-member-expression-literals",
+        "transform-merge-sibling-variables",
+        "transform-minify-booleans",
+        "transform-property-literals",
+        "transform-remove-debugger",
+        "transform-simplify-comparison-operators",
+        "transform-flow-strip-types"
+      ]
+    },
+    "development": {
+      "plugins": [
+        "transform-flow-comments"
+      ]
+    }
+  }
 }
