@@ -1,3 +1,3 @@
-import 'babel-polyfill'
-import async from 'async'
-import _ from 'lodash'
+import 'babel-polyfill';
+import './fib-gen';
+
