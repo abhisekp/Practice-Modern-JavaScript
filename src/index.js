@@ -5,8 +5,8 @@ import 'babel-polyfill';
 import 'colors';
 // import async from 'async';
 // import _ from 'lodash';
-// import console from 'better-console';
+import console from 'better-console';
 
-// import './fib-gen';
+import './fib-gen';
 import './table';
 import './random-throw';
