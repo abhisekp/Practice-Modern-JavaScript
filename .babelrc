@@ -1,8 +1,19 @@
 {
+  "passPerPreset": true,
   "plugins": [
     "transform-decorators-legacy",
     "transform-undefined-to-void",
-    "syntax-flow"
+    ["typecheck", {
+      "disable": {
+        "production": true
+      }
+    }],
+    "syntax-flow",
+    ["transform-flow-comments", {
+      "disable": {
+        "production": true
+      }
+    }]
   ],
   "presets": ["modern-node/6.0", "stage-0"],
   "sourceMaps": true,
@@ -16,11 +27,6 @@
         "transform-remove-debugger",
         "transform-simplify-comparison-operators",
         "transform-flow-strip-types"
-      ]
-    },
-    "development": {
-      "plugins": [
-        "transform-flow-comments"
       ]
     }
   }
