@@ -1,3 +1,5 @@
+// @flow
+
 import console from 'better-console';
 
 const fib = function* fib(n) {
