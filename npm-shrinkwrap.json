@@ -1517,6 +1517,11 @@
       "from": "callsites@>=0.2.0 <0.3.0",
       "resolved": "https://registry.npmjs.org/callsites/-/callsites-0.2.0.tgz"
     },
+    "camel-case": {
+      "version": "1.2.2",
+      "from": "camel-case@>=1.1.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/camel-case/-/camel-case-1.2.2.tgz"
+    },
     "camelcase": {
       "version": "2.1.1",
       "from": "camelcase@>=2.0.0 <3.0.0",
@@ -1549,10 +1554,20 @@
         }
       }
     },
+    "cfonts": {
+      "version": "0.0.13",
+      "from": "cfonts@latest",
+      "resolved": "http://127.0.0.1:5080/tarballs/cfonts/0.0.13.tgz"
+    },
     "chalk": {
       "version": "1.1.3",
       "from": "chalk@>=1.1.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz"
+    },
+    "change-case": {
+      "version": "2.3.1",
+      "from": "change-case@>=2.1.6 <3.0.0",
+      "resolved": "https://registry.npmjs.org/change-case/-/change-case-2.3.1.tgz"
     },
     "chokidar": {
       "version": "1.4.3",
@@ -1684,6 +1699,11 @@
       "version": "0.1.1",
       "from": "console-stream@>=0.1.1 <0.2.0",
       "resolved": "http://127.0.0.1:5080/tarballs/console-stream/0.1.1.tgz"
+    },
+    "constant-case": {
+      "version": "1.1.2",
+      "from": "constant-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/constant-case/-/constant-case-1.1.2.tgz"
     },
     "convert-source-map": {
       "version": "1.2.0",
@@ -1850,6 +1870,11 @@
         }
       }
     },
+    "dedent": {
+      "version": "0.6.0",
+      "from": "dedent@latest",
+      "resolved": "https://registry.npmjs.org/dedent/-/dedent-0.6.0.tgz"
+    },
     "deep-equal": {
       "version": "1.0.1",
       "from": "deep-equal@>=1.0.0 <2.0.0",
@@ -1896,6 +1921,11 @@
           "resolved": "https://registry.npmjs.org/esutils/-/esutils-1.1.6.tgz"
         }
       }
+    },
+    "dot-case": {
+      "version": "1.1.2",
+      "from": "dot-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/dot-case/-/dot-case-1.1.2.tgz"
     },
     "dot-prop": {
       "version": "2.4.0",
@@ -2117,6 +2147,11 @@
       "version": "1.1.0",
       "from": "executable@>=1.0.0 <2.0.0",
       "resolved": "http://127.0.0.1:5080/tarballs/executable/1.1.0.tgz"
+    },
+    "exit-hook": {
+      "version": "1.1.1",
+      "from": "exit-hook@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/exit-hook/-/exit-hook-1.1.1.tgz"
     },
     "expand-brackets": {
       "version": "0.1.5",
@@ -2647,6 +2682,11 @@
       "from": "is-integer@>=1.0.4 <2.0.0",
       "resolved": "https://registry.npmjs.org/is-integer/-/is-integer-1.0.6.tgz"
     },
+    "is-lower-case": {
+      "version": "1.1.3",
+      "from": "is-lower-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/is-lower-case/-/is-lower-case-1.1.3.tgz"
+    },
     "is-my-json-valid": {
       "version": "2.13.1",
       "from": "is-my-json-valid@>=2.12.4 <3.0.0",
@@ -2761,6 +2801,11 @@
       "version": "1.0.0",
       "from": "is-typedarray@>=1.0.0 <1.1.0",
       "resolved": "https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz"
+    },
+    "is-upper-case": {
+      "version": "1.1.2",
+      "from": "is-upper-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/is-upper-case/-/is-upper-case-1.1.2.tgz"
     },
     "is-url": {
       "version": "1.2.1",
@@ -3115,6 +3160,16 @@
       "from": "loud-rejection@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/loud-rejection/-/loud-rejection-1.3.0.tgz"
     },
+    "lower-case": {
+      "version": "1.1.3",
+      "from": "lower-case@>=1.1.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/lower-case/-/lower-case-1.1.3.tgz"
+    },
+    "lower-case-first": {
+      "version": "1.0.2",
+      "from": "lower-case-first@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/lower-case-first/-/lower-case-first-1.0.2.tgz"
+    },
     "lowercase-keys": {
       "version": "1.0.0",
       "from": "lowercase-keys@>=1.0.0 <2.0.0",
@@ -3293,6 +3348,11 @@
       "from": "number-is-nan@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.0.tgz"
     },
+    "numd": {
+      "version": "3.0.2",
+      "from": "numd@latest",
+      "resolved": "http://127.0.0.1:5080/tarballs/numd/3.0.2.tgz"
+    },
     "oauth-sign": {
       "version": "0.8.2",
       "from": "oauth-sign@>=0.8.1 <0.9.0",
@@ -3343,10 +3403,20 @@
       "from": "optionator@>=0.8.1 <0.9.0",
       "resolved": "https://registry.npmjs.org/optionator/-/optionator-0.8.1.tgz"
     },
+    "ora": {
+      "version": "0.2.3",
+      "from": "ora@latest",
+      "resolved": "http://127.0.0.1:5080/tarballs/ora/0.2.3.tgz"
+    },
     "ordered-read-streams": {
       "version": "0.3.0",
       "from": "ordered-read-streams@>=0.3.0 <0.4.0",
       "resolved": "https://registry.npmjs.org/ordered-read-streams/-/ordered-read-streams-0.3.0.tgz"
+    },
+    "ordinal-number-suffix": {
+      "version": "0.1.1",
+      "from": "ordinal-number-suffix@latest",
+      "resolved": "http://127.0.0.1:5080/tarballs/ordinal-number-suffix/0.1.1.tgz"
     },
     "os-filter-obj": {
       "version": "1.0.3",
@@ -3385,6 +3455,11 @@
         }
       }
     },
+    "param-case": {
+      "version": "1.1.2",
+      "from": "param-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/param-case/-/param-case-1.1.2.tgz"
+    },
     "parse-glob": {
       "version": "3.0.4",
       "from": "parse-glob@>=3.0.4 <4.0.0",
@@ -3399,6 +3474,16 @@
       "version": "1.0.1",
       "from": "parse-ms@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/parse-ms/-/parse-ms-1.0.1.tgz"
+    },
+    "pascal-case": {
+      "version": "1.1.2",
+      "from": "pascal-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/pascal-case/-/pascal-case-1.1.2.tgz"
+    },
+    "path-case": {
+      "version": "1.1.2",
+      "from": "path-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/path-case/-/path-case-1.1.2.tgz"
     },
     "path-exists": {
       "version": "1.0.0",
@@ -3754,6 +3839,11 @@
         }
       }
     },
+    "sentence-case": {
+      "version": "1.1.3",
+      "from": "sentence-case@>=1.1.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/sentence-case/-/sentence-case-1.1.3.tgz"
+    },
     "set-immediate-shim": {
       "version": "1.0.1",
       "from": "set-immediate-shim@>=1.0.0 <2.0.0",
@@ -3800,6 +3890,11 @@
       "version": "1.1.6",
       "from": "slide@>=1.1.5 <2.0.0",
       "resolved": "https://registry.npmjs.org/slide/-/slide-1.1.6.tgz"
+    },
+    "snake-case": {
+      "version": "1.1.2",
+      "from": "snake-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/snake-case/-/snake-case-1.1.2.tgz"
     },
     "sntp": {
       "version": "1.0.9",
@@ -3970,6 +4065,11 @@
       "from": "supports-color@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz"
     },
+    "swap-case": {
+      "version": "1.1.2",
+      "from": "swap-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/swap-case/-/swap-case-1.1.2.tgz"
+    },
     "symbol": {
       "version": "0.2.2",
       "from": "symbol@>=0.2.1 <0.3.0",
@@ -4081,6 +4181,11 @@
       "from": "timed-out@>=2.0.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/timed-out/-/timed-out-2.0.0.tgz"
     },
+    "title-case": {
+      "version": "1.1.2",
+      "from": "title-case@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/title-case/-/title-case-1.1.2.tgz"
+    },
     "to-absolute-glob": {
       "version": "0.1.1",
       "from": "to-absolute-glob@>=0.1.1 <0.2.0",
@@ -4175,6 +4280,16 @@
       "version": "0.6.3",
       "from": "update-notifier@>=0.6.0 <0.7.0",
       "resolved": "https://registry.npmjs.org/update-notifier/-/update-notifier-0.6.3.tgz"
+    },
+    "upper-case": {
+      "version": "1.1.3",
+      "from": "upper-case@>=1.1.1 <2.0.0",
+      "resolved": "https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz"
+    },
+    "upper-case-first": {
+      "version": "1.1.2",
+      "from": "upper-case-first@>=1.1.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/upper-case-first/-/upper-case-first-1.1.2.tgz"
     },
     "url-parse-lax": {
       "version": "1.0.0",
