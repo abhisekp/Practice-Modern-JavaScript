@@ -9,16 +9,30 @@
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "better-console": "^0.2.4",
+    "colors": "^1.1.2",
     "lodash": "^4.11.2",
     "npm-run-all": "^2.1.1",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "source-map-support": "^0.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
+    "babel-plugin-syntax-flow": "^6.8.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-flow-comments": "^6.8.0",
+    "babel-plugin-transform-flow-strip-types": "^6.8.0",
+    "babel-plugin-transform-member-expression-literals": "^6.8.0",
+    "babel-plugin-transform-merge-sibling-variables": "^6.8.0",
+    "babel-plugin-transform-minify-booleans": "^6.8.0",
+    "babel-plugin-transform-property-literals": "^6.8.0",
+    "babel-plugin-transform-remove-debugger": "^6.8.0",
+    "babel-plugin-transform-simplify-comparison-operators": "^6.8.0",
+    "babel-plugin-transform-undefined-to-void": "^6.8.0",
+    "babel-plugin-typecheck": "^3.9.0",
     "babel-polyfill": "^6.9.0",
     "babel-preset-modern-node": "^2.1.0",
-    "babel-preset-stage-0": "^6.5.0"
+    "babel-preset-stage-0": "^6.5.0",
+    "flow-bin": "^0.25.0"
   },
   "scripts": {
     "watch": "npm-run-all watch:dev",
@@ -28,13 +42,16 @@
     "start": "node build || npm-run-all build:prod start",
     "start:watch": "npm-run-all watch:prod",
     "build": "npm-run-all build:prod",
-    "build:prod": "npm-run-all clean:build && babel -q -D -d build src",
-    "build:watch:prod": "npm-run-all clean:build && babel -q -w -D -d build src",
+    "build:prod": "npm-run-all clean:build && babel -q -D -s --minified -d build src",
+    "build:watch:prod": "npm-run-all clean:build && babel -q -w -s --minified -D -d build src",
     "build:dev": "",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "npm-run-all build",
     "clean": "npm-run-all clean:build",
-    "clean:build": "rimraf build/*"
+    "clean:build": "rimraf build/*",
+    "clean:node_modules": "rimraf node_modules",
+    "clean:all": "npm-run-all -p clean:build clean:node_modules",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "repository": {
     "type": "git",
