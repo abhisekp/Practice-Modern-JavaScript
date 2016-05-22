@@ -11,7 +11,8 @@
     "better-console": "^0.2.4",
     "lodash": "^4.11.2",
     "npm-run-all": "^2.1.1",
-    "rimraf": "^2.5.2"
+    "rimraf": "^2.5.2",
+    "source-map-support": "^0.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.9.0",
@@ -40,13 +41,15 @@
     "start": "node build || npm-run-all build:prod start",
     "start:watch": "npm-run-all watch:prod",
     "build": "npm-run-all build:prod",
-    "build:prod": "npm-run-all clean:build && babel -q -D -d build src",
-    "build:watch:prod": "npm-run-all clean:build && babel -q -w -D -d build src",
+    "build:prod": "npm-run-all clean:build && babel -q -D -s --minified -d build src",
+    "build:watch:prod": "npm-run-all clean:build && babel -q -w -s --minified -D -d build src",
     "build:dev": "",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "npm-run-all build",
     "clean": "npm-run-all clean:build",
     "clean:build": "rimraf build/*",
+    "clean:node_modules": "rimraf node_modules",
+    "clean:all": "npm-run-all -p clean:build clean:node_modules",
     "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "repository": {
