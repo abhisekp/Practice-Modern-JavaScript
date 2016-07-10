@@ -31,10 +31,13 @@ setTimeout(() => {
   const nsTime = diff[0] * 1e9 + diff[1];
   spinner.stop();
   spinner.clear();
+  
+  const nthTerm = ordinal(maxNum);
+  const timeTaken = numd(nsTime, 'nanosecond', 'nanoseconds');
 
   console.info(String(allFibs[maxNum]).green.inverse);
   console.info(dedent`
-    ${ ordinal(maxNum).blue.inverse } fibonacci number \
-    generated in ${ numd(nsTime, 'nanosecond', 'nanoseconds') }
+    ${ nthTerm.blue.inverse } fibonacci number \
+    generated in ${ timeTaken }
   `);
 }, 0);
