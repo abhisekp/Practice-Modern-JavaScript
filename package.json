@@ -46,7 +46,7 @@
     "eslint-plugin-flow-vars": "^0.4.0",
     "eslint-plugin-flowtype": "^2.3.0",
     "eslint-plugin-import": "^1.10.2",
-    "flow-bin": "^0.25.0"
+    "flow-bin": "^0.29.0"
   },
   "scripts": {
     "watch": "npm-run-all watch:dev",
