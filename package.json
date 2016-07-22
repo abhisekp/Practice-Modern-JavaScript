@@ -18,7 +18,7 @@
     "numd": "^3.0.2",
     "ora": "^0.2.3",
     "ordinal-number-suffix": "^0.1.1",
-    "rimraf": "^2.5.2",
+    "rimraf": "^2.5.4",
     "source-map-support": "^0.4.0"
   },
   "devDependencies": {
