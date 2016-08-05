@@ -37,7 +37,7 @@
     "babel-plugin-transform-simplify-comparison-operators": "^6.8.0",
     "babel-plugin-transform-undefined-to-void": "^6.8.0",
     "babel-plugin-typecheck": "^3.9.0",
-    "babel-polyfill": "^6.9.1",
+    "babel-polyfill": "^6.13.0",
     "babel-preset-modern-node": "^2.2.1",
     "babel-preset-stage-0": "^6.5.0",
     "eslint": "^2.13.1",
