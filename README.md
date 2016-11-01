@@ -10,7 +10,12 @@ A boilerplate to setup and practice Modern JavaScript
 ## <a id="toc"></a> Table of Contents
 - [Requirements](#req)
 - [Installation Instructions](#install)
+ - [Nodemon](#nodemon)
+ - [Dependencies](#dependencies)
 - [How to Use](#usage)
+ - [Watch](#watch)
+ - [Write](#write)
+ - [Output](#output)
 - [Examples](#examples)
  - [Example 1](#example-1)
  - [Example 2](#example-2)
@@ -27,13 +32,13 @@ A boilerplate to setup and practice Modern JavaScript
 ## <a id="install"></a>Installation <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
 
 
-1. **Install `nodemon`** globally for watching for file changes while running the code :beginner: :package:
+[1.](#nodemon)<a id="nodemon"></a> **Install `nodemon`** globally for watching for file changes while running the code :beginner: :package:
 
   ```sh
   $ npm install -g nodemon # npm i -g nodemon
   ```
 
-2. **Install all dependencies** :beginner: :package:
+[2.](#dependencies)<a id="dependencies"></a> **Install all dependencies** :beginner: :package:
 
   ```sh
   $ npm install
@@ -41,13 +46,13 @@ A boilerplate to setup and practice Modern JavaScript
 
 ## <a id="usage"></a>Usage <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
 
-1. <a id="watch"></a>**Start watching** for file changes :eyes:
+[1.](#watch) <a id="watch"></a>**Start watching** for file changes :eyes:
 
   ```sh
   $ npm run -s watch # npm start -s
   ```
 
-2. <a id="write"></a>**Start writing** modern JavaScript in **`src/index.js`** file :memo:
+[2.](#write) <a id="write"></a>**Start writing** modern JavaScript in **`src/index.js`** file :memo:
 
   ```js
   // my-module.js
@@ -61,7 +66,7 @@ A boilerplate to setup and practice Modern JavaScript
   console.log(myModule.name) // 'My Module'
   ```
 
-3. <a id="output"></a>**Enjoy** the output :joy:
+[3.](#output) <a id="output"></a>**Enjoy** the output :joy:
 
   ```sh
   $ npm start -s # silently start
@@ -70,7 +75,7 @@ A boilerplate to setup and practice Modern JavaScript
 
 ## <a id="examples"></a>Examples
 
-1. <a id="example-1"></a>**Example 1** <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
+[1.](#example-1) <a id="example-1"></a>**Example 1** <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
 
   ```js
   // async-await.js
@@ -86,7 +91,7 @@ A boilerplate to setup and practice Modern JavaScript
   longRun()
   ```
 
-2. <a id="example-2"></a>**Example 2** <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
+[2.](#example-2) <a id="example-2"></a>**Example 2** <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
   ```js
   // array-includes.js
   const includes3 = [1, 3, 4].includes(3)
