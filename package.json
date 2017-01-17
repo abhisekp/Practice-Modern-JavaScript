@@ -14,7 +14,7 @@
     "decimal.js": "^5.0.8",
     "dedent": "^0.6.0",
     "lodash": "^4.12.0",
-    "npm-run-all": "^2.1.1",
+    "npm-run-all": "^4.0.1",
     "numd": "^3.0.2",
     "ora": "^0.2.3",
     "ordinal-number-suffix": "^0.1.1",
