@@ -19,7 +19,7 @@
     "ora": "^0.2.3",
     "ordinal-number-suffix": "^0.1.1",
     "rimraf": "^2.5.2",
-    "source-map-support": "^0.4.0"
+    "source-map-support": "^0.4.1"
   },
   "devDependencies": {
     "ava": "^0.14.0",
