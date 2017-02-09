@@ -9,7 +9,7 @@
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "better-console": "^0.2.4",
-    "cfonts": "0.0.13",
+    "cfonts": "1.1.1",
     "colors": "^1.1.2",
     "decimal.js": "^5.0.8",
     "dedent": "^0.6.0",
