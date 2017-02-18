@@ -22,7 +22,7 @@
     "source-map-support": "^0.4.0"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
+    "ava": "^0.18.2",
     "babel-cli": "^6.11.4",
     "babel-eslint": "^6.1.2",
     "babel-plugin-syntax-flow": "^6.8.0",
