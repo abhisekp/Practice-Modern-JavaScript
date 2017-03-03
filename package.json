@@ -41,7 +41,7 @@
     "babel-preset-modern-node": "^2.2.1",
     "babel-preset-stage-0": "^6.5.0",
     "eslint": "^2.13.1",
-    "eslint-config-airbnb-base": "^3.0.1",
+    "eslint-config-airbnb-base": "^11.1.1",
     "eslint-plugin-babel": "^3.3.0",
     "eslint-plugin-flow-vars": "^0.4.0",
     "eslint-plugin-flowtype": "^2.4.0",
