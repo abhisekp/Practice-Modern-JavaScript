@@ -11,7 +11,7 @@
     "better-console": "^0.2.4",
     "cfonts": "0.0.13",
     "colors": "^1.1.2",
-    "decimal.js": "^5.0.8",
+    "decimal.js": "^7.2.0",
     "dedent": "^0.6.0",
     "lodash": "^4.12.0",
     "npm-run-all": "^2.1.1",
