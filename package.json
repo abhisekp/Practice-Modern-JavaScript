@@ -35,7 +35,7 @@
     "babel-plugin-transform-property-literals": "^6.8.0",
     "babel-plugin-transform-remove-debugger": "^6.8.0",
     "babel-plugin-transform-simplify-comparison-operators": "^6.8.0",
-    "babel-plugin-transform-undefined-to-void": "^6.8.0",
+    "babel-plugin-transform-undefined-to-void": "^6.8.2",
     "babel-plugin-typecheck": "^3.9.0",
     "babel-polyfill": "^6.9.1",
     "babel-preset-modern-node": "^2.2.1",
