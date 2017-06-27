@@ -3,22 +3,36 @@
   "plugins": [
     "transform-decorators-legacy",
     "transform-undefined-to-void",
-    ["typecheck", {
-      "disable": {
-        "production": true
+    [
+      "typecheck",
+      {
+        "disable": {
+          "production": true
+        }
       }
-    }],
+    ],
     "syntax-flow",
-    ["transform-flow-comments", {
-      "disable": {
-        "production": true
+    [
+      "transform-flow-comments",
+      {
+        "disable": {
+          "production": true
+        }
       }
-    }]
+    ]
   ],
-  "presets": ["modern-node/6.0", "stage-0"],
+  "presets": [
+    "stage-0",
+    [
+      "latest",
+      {
+        "loose": true
+      }
+    ]
+  ],
   "env": {
     "production": {
-      plugins: [
+      "plugins": [
         "transform-member-expression-literals",
         "transform-merge-sibling-variables",
         "transform-minify-booleans",

@@ -41,7 +41,7 @@ A boilerplate to setup and practice Modern JavaScript
 [2.](#dependencies)<a id="dependencies"></a> **Install all dependencies** :beginner: :package:
 
   ```sh
-  $ npm install
+  $ yarn install
   ```
 
 ## <a id="usage"></a>Usage <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
@@ -49,7 +49,7 @@ A boilerplate to setup and practice Modern JavaScript
 [1.](#watch) <a id="watch"></a>**Start watching** for file changes :eyes:
 
   ```sh
-  $ npm run -s watch # npm start -s
+  $ yarn run watch # yarn start
   ```
 
 [2.](#write) <a id="write"></a>**Start writing** modern JavaScript in **`src/index.js`** file :memo:
@@ -69,7 +69,7 @@ A boilerplate to setup and practice Modern JavaScript
 [3.](#output) <a id="output"></a>**Enjoy** the output :joy:
 
   ```sh
-  $ npm start -s # silently start
+  $ yarn start
   My Module
   ```
 
