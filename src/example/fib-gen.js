@@ -1,6 +1,7 @@
 // @flow
 
 import 'babel-polyfill';
+import 'source-map-support/register';
 import console from 'better-console';
 
 const fib = function* fib(n) {

@@ -1,5 +1,6 @@
 // @flow
 
+import 'babel-polyfill';
 import 'source-map-support/register';
 import _ from 'lodash/fp';
 import c from 'clor/c';

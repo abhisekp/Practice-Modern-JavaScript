@@ -1,3 +1,4 @@
+import 'babel-polyfill';
 import 'source-map-support/register';
 import console from 'better-console';
 import ordinal from 'ordinal-number-suffix';

@@ -1,5 +1,7 @@
 // @flow
 
+import 'source-map-support/register';
+import 'babel-polyfill';
 import BD from 'decimal.js';
 
 BD.config({
