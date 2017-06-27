@@ -1,13 +1,14 @@
-import memGen from './example/memoized-fib-gen';
+import 'source-map-support/register';
 import console from 'better-console';
 import ordinal from 'ordinal-number-suffix';
 import numd from 'numd';
 import dedent from 'dedent';
 import ora from 'ora';
-import FONTS from 'cfonts';
+import CFonts from 'cfonts';
+import c from 'clor/c';
+import memGen from './example/memoized-fib-gen';
 
-const fonts = new FONTS({
-  text: 'Fibonacci Gen',
+const fonts = CFonts.say('Fibonacci Gen', {
   font: 'block',
   colors: '',
   background: 'black',
@@ -31,13 +32,17 @@ setTimeout(() => {
   const nsTime = diff[0] * 1e9 + diff[1];
   spinner.stop();
   spinner.clear();
-  
+
   const nthTerm = ordinal(maxNum);
   const timeTaken = numd(nsTime, 'nanosecond', 'nanoseconds');
 
-  console.info(String(allFibs[maxNum]).green.inverse);
-  console.info(dedent`
-    ${ nthTerm.blue.inverse } fibonacci number \
-    generated in ${ timeTaken }
-  `);
+  console.info(c`<green><inverse>${allFibs[maxNum]}</inverse></green>`);
+  console.info(
+    dedent(
+      c`
+    <blue><inverse>${nthTerm}</inverse></blue> fibonacci number \
+    generated in ${timeTaken}
+  `,
+    ),
+  );
 }, 0);

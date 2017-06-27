@@ -1,5 +1,6 @@
 // @flow
 
+import 'babel-polyfill';
 import console from 'better-console';
 
 const fib = function* fib(n) {

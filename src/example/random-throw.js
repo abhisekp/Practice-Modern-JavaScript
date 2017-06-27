@@ -1,12 +1,15 @@
 // @flow
 
-import _ from 'lodash';
+import 'source-map-support/register';
+import _ from 'lodash/fp';
+import c from 'clor/c';
 
-const min : number = 1;
-const max : number = 10;
-console.info(`Random Number between ${min} and ${max} is`.red.inverse, String(_.random(min, max)).green.inverse);
+const min: number = 1;
+const max: number = 10;
+console.info(
+  c`<red><inverse> Random Number between ${min} and ${max} is </inverse></red><green><inverse><bold> ${_.random(min, max)} </bold></inverse></green>`,
+);
 
-throw Error('Boom blast!');
+throw Error(c`<bgBlue><red><bold>Boom blast!</bold></red></bgBlue>`);
 
 console.log('...aha!');
-

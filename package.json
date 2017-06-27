@@ -2,7 +2,7 @@
   "name": "practice-modern-javascript",
   "version": "3.2.1",
   "description": "A boilerplate to setup and practice Modern JavaScript",
-  "main": "index.js",
+  "main": "build/index.js",
   "engines": {
     "node": ">=6"
   },
@@ -38,34 +38,33 @@
     "babel-plugin-transform-simplify-comparison-operators": "^6.8.0",
     "babel-plugin-transform-undefined-to-void": "^6.8.0",
     "babel-plugin-typecheck": "^3.9.0",
-    "babel-polyfill": "^6.9.1",
+    "babel-polyfill": "^6.23.0",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "eslint": "^3.19.0",
+    "eslint": "^4.1.1",
     "eslint-config-airbnb-base": "^11.2.0",
-    "eslint-plugin-babel": "^3.3.0",
-    "eslint-plugin-flow-vars": "^0.4.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-flow-vars": "^0.5.0",
     "eslint-plugin-flowtype": "^2.4.0",
     "eslint-plugin-import": "^2.2.0",
-    "flow-bin": "^0.25.0"
+    "eslint-plugin-lodash-fp": "^2.1.3",
+    "flow-bin": "^0.48.0"
   },
   "scripts": {
-    "watch": "npm-run-all watch:dev",
-    "watch:prod": "npm-run-all -p build:watch:prod run:watch:prod",
-    "run:watch:prod": "nodemon -q -w build build",
-    "watch:dev": "nodemon -q -w src -x babel-node src",
-    "start": "node build || npm-run-all build:prod start",
-    "start:watch": "npm-run-all watch:prod",
-    "build": "npm-run-all build:prod",
-    "build:prod": "npm-run-all clean:build && babel -q -D -s --minified -d build src",
-    "build:watch:prod": "npm-run-all clean:build && babel -q -w -s --minified -D -d build src",
-    "build:dev": "",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npm-run-all build",
-    "clean": "npm-run-all clean:build",
+    "prepublish": "run-s build",
+    "start": "node .",
+    "build": "run-s clean:build build:babel:prod",
+    "watch": "run-s watch:dev",
+    "watch:dev": "nodemon -q -w build build",
+    "watch:build": "run-s clean:build build:babel:watch",
+    "build:babel:prod": "babel -D -s --minified -d build src",
+    "build:babel": "babel -D -s -d build src",
+    "build:babel:watch": "babel -D -s -w -d build src",
+    "clean": "run-s clean:build",
     "clean:build": "rimraf build/*",
     "clean:node_modules": "rimraf node_modules",
-    "clean:all": "npm-run-all -p clean:build clean:node_modules",
+    "clean:all": "run-p clean:build clean:node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "repository": {
@@ -86,5 +85,8 @@
   "bugs": {
     "url": "https://github.com/abhisekp/Practice-Modern-JavaScript/issues"
   },
+  "files": [
+    "build"
+  ],
   "homepage": "https://github.com/abhisekp/Practice-Modern-JavaScript#readme"
 }
