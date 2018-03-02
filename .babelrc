@@ -25,7 +25,7 @@
   "presets": [
     "stage-0",
     [
-      "latest",
+      "env",
       {
         "loose": true
       }
