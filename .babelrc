@@ -1,6 +1,7 @@
 {
   "sourceMaps": true,
   "presets": [
+    "@babel/preset-flow",
     "@babel/stage-0",
     [
       "@babel/env",

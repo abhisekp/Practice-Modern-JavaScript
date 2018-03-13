@@ -1,7 +1,7 @@
 import { curryN } from 'lodash/fp';
 
 function fnPipe() {
-  const get = curryN(2, (prop, obj) => {
+  const get = curryN(2, (prop: string, obj: object): any => {
     if (obj !== null && typeof obj === 'object') {
       return obj[prop];
     }
@@ -9,7 +9,7 @@ function fnPipe() {
     return undefined;
   });
 
-  const uppercase = (string) => {
+  const uppercase = (string: string): string => {
     if (typeof string === 'string') {
       return string.toUpperCase();
     }
@@ -17,7 +17,7 @@ function fnPipe() {
     return '';
   };
 
-  const snaked = (string) => {
+  const snaked = (string: string): string => {
     if (typeof string === 'string') {
       return `_${string.trim()}_`;
     }
@@ -36,7 +36,7 @@ function fnPipe() {
   const pipedResult = obj
     |> get('name')
     |> uppercase
-    |> snaked
+    |> snaked;
 
   console.log('Piped:', pipedResult);
 }

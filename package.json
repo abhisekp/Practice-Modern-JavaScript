@@ -29,6 +29,7 @@
     "@babel/node": "^7.0.0-beta.40",
     "@babel/polyfill": "^7.0.0-beta.40",
     "@babel/preset-env": "^7.0.0-beta.40",
+    "@babel/preset-flow": "^7.0.0-beta.40",
     "@babel/preset-stage-0": "^7.0.0-beta.40",
     "ava": "^0.19.1",
     "babel-eslint": "^8.2.2",
