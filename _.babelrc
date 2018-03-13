@@ -1,0 +1,46 @@
+{
+  "sourceMaps": true,
+  "passPerPreset": true,
+  "plugins": [
+    "transform-undefined-to-void",
+    [
+      "typecheck",
+      {
+        "disable": {
+          "production": true
+        }
+      }
+    ],
+    "syntax-flow",
+    [
+      "transform-flow-comments",
+      {
+        "disable": {
+          "production": true
+        }
+      }
+    ]
+  ],
+  "presets": [
+    "stage-0",
+    [
+      "env",
+      {
+        "loose": true
+      }
+    ]
+  ],
+  "env": {
+    "production": {
+      "plugins": [
+        "transform-member-expression-literals",
+        "transform-merge-sibling-variables",
+        "transform-minify-booleans",
+        "transform-property-literals",
+        "transform-remove-debugger",
+        "transform-simplify-comparison-operators",
+        "transform-flow-strip-types"
+      ]
+    }
+  }
+}
