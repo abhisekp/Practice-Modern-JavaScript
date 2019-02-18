@@ -7,6 +7,8 @@ A boilerplate to setup and practice Modern JavaScript
 [![Practice Modern JavaScript Download](https://img.shields.io/badge/Download-Practice_Modern_JavaScript_🚀-9055A2.svg?style=flat-square&maxAge=2592000)](https://github.com/abhisekp/Practice-Modern-JavaScript/archive/master.zip)  
 [![Practice Modern JavaScript Tweet](https://img.shields.io/badge/Tweet-Practice_Modern_JavaScript-1da1f2.svg?style=flat-square&maxAge=2592000)](https://twitter.com/intent/retweet?tweet_id=726917916843601920&related=abhisek%3ACreator,babeljs%3ATranspiler)
 
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/abhisekp/ComputerEnthusiasts)
+
 ## <a id="toc"></a> Table of Contents
 - [Requirements](#req)
 - [Installation Instructions](#install)
