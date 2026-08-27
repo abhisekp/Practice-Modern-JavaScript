@@ -14,6 +14,7 @@ A boilerplate to setup and practice Modern JavaScript
 - [Installation Instructions](#install)
  - [Nodemon](#nodemon)
  - [Dependencies](#dependencies)
+- [Update Instructions](#update)
 - [How to Use](#usage)
  - [Watch](#watch)
  - [Write](#write)
@@ -44,6 +45,36 @@ A boilerplate to setup and practice Modern JavaScript
 
   ```sh
   $ yarn install
+  ```
+
+## <a id="update"></a>Update Instructions <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
+
+To update your local copy with the latest changes from this repository:
+
+[1.](#fetch)<a id="fetch"></a> **Fetch the latest changes** from the remote:
+
+  ```sh
+  $ git fetch origin
+  ```
+
+[2.](#pull)<a id="pull"></a> **Pull the latest `master` branch**:
+
+  ```sh
+  $ git pull origin master
+  ```
+
+If you have uncommitted local changes and the pull conflicts, commit or stash them first:
+
+  ```sh
+  $ git stash        # save your changes aside
+  $ git pull origin master
+  $ git stash pop    # re-apply your changes
+  ```
+
+[3.](#reinstall)<a id="reinstall"></a> **Reinstall dependencies** if `package.json` changed:
+
+  ```sh
+  $ npm install
   ```
 
 ## <a id="usage"></a>Usage <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
