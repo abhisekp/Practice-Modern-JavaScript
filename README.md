@@ -103,6 +103,11 @@ A boilerplate to setup and practice Modern JavaScript
 ## <a id="techs"></a>Technologies Used <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
 - [**Babel**](http://babeljs.io) — Transpiles modern JS to compatible and runnable JS
 - [**babel-preset-modern-node**](https://github.com/michaelcontento/babel-preset-modern-node) — A preset for Babel with required plugins
+- [**nodemon**](https://nodemon.io) — Watches files and restarts the app on change during development
+- [**Flow**](https://flow.org) — Static type checker for JavaScript
+- [**ESLint**](https://eslint.org) — Linting with Airbnb base config
+- [**LOLColors**](http://www.lolcolors.com) — Used for the colored labels in this README
+- [**Lunapic**](http://lunapic.com) — Online editor used for image assets
 
 
 ## <a id="help"></a>Help & Support <a href="#toc" title="Table of Contents"><kbd>⮭</kbd></a>
