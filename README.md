@@ -9,6 +9,9 @@ A boilerplate to setup and practice Modern JavaScript
 
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/abhisekp/ComputerEnthusiasts)
 
+[![Dependency Status](https://david-dm.org/abhisekp/Practice-Modern-JavaScript.svg)](https://david-dm.org/abhisekp/Practice-Modern-JavaScript)
+[![devDependency Status](https://david-dm.org/abhisekp/Practice-Modern-JavaScript/dev-status.svg)](https://david-dm.org/abhisekp/Practice-Modern-JavaScript#info=devDependencies)
+
 ## <a id="toc"></a> Table of Contents
 - [Requirements](#req)
 - [Installation Instructions](#install)
